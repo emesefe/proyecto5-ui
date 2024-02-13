@@ -143,4 +143,10 @@ public class GameManager : MonoBehaviour
      {
           backgroundMusicAudioSource.volume = volume;
      }
+
+     public void MuteMusic(bool musicMuted)
+     {
+          backgroundMusicAudioSource.mute = musicMuted;
+          uiManager.SetSliderValue(0);
+     }
 }

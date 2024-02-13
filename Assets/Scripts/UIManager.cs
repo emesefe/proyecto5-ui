@@ -89,4 +89,9 @@ public class UIManager : MonoBehaviour
     {
         optionsPanel.SetActive(false);
     }
+
+    public void SetSliderValue(float value)
+    {
+        volumeSlider.value = value;
+    }
 }
